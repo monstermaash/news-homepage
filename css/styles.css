@@ -1,0 +1,204 @@
+body {
+  padding: 3% 10%;
+}
+
+p {
+  font-size: 15px;
+}
+
+/* TOP SECTION */
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  font-family: 'Inter', sans-serif;
+}
+
+li {
+  display: inline;
+  padding-left: 2rem;
+}
+
+li:hover {
+  color: hsl(5, 85%, 63%);
+}
+
+.navbar {
+  margin-bottom: 1rem;
+}
+
+.navbar-brand:hover {
+  cursor: pointer;
+}
+
+/* MIDDLE SECTION */
+.middle-section {
+  font-family: 'Inter', sans-serif;
+}
+
+.web3-desktop {
+  width: 100%;
+  margin-bottom: 2rem;
+}
+
+.web3-mobile {
+  display: none;
+}
+
+.middle-row {
+  margin-bottom: 3rem;
+}
+
+.headline {
+  font-weight: 800;
+  font-size: 3.5rem;
+  max-width: 20rem;
+  line-height: 1;
+}
+
+.headline:hover {
+  cursor: pointer;
+}
+
+.paragraph {
+  font-weight: 400;
+  max-width: 21.5rem;
+  margin-bottom: 2rem;
+}
+
+.button {
+  background-color: hsl(5, 85%, 63%);
+  font-weight: 800;
+  font-size: .9rem;
+  color: #fff;
+  border: none;
+  padding: 3% 10%;
+  letter-spacing: 3px;
+}
+
+.button:hover {
+  background-color: #000;
+}
+
+.new-article-box {
+  background-color: hsl(240, 100%, 5%);
+  color: hsl(36, 100%, 99%);
+  padding: 7%;
+}
+
+.header {
+  font-weight: 800;
+  font-size: 1.15rem;
+}
+
+.sub-header {
+  font-weight: 400;
+  margin-top: 1rem;
+}
+
+.new-headline {
+  color: hsl(35, 77%, 62%);
+  font-weight: 600;
+  margin-top: .5rem;
+  margin-bottom: 1.25rem;
+}
+
+.new-article-box .header {
+  margin-top: 1.5rem;
+}
+
+.new-article-box .header:hover {
+  color: hsl(35, 77%, 62%);
+  cursor: pointer;
+}
+
+/* BTM SECTION */
+.btm-section {
+  font-family: 'Inter', sans-serif;
+  margin-bottom: 3rem;
+}
+
+.article-row {
+  justify-content: space-between;
+}
+
+.pop-article-box {
+  display: inline-block;
+}
+
+.pop-article-container {
+  background-color: #fff;
+  justify-content: space-between;  
+}
+
+.pop-article-img-box {
+  float: left;
+  width: 30%;
+}
+
+.pop-article-img {
+  width: 100%;
+}
+
+.pop-article-info {
+  padding-left: 8rem;
+}
+
+.pop-article-info .header {
+  font-size: 1rem;
+  margin-top: .2rem;
+}
+
+.pop-article-info .header:hover {
+  color: hsl(5, 85%, 63%);
+  cursor: pointer;
+}
+
+.pop-article-info .sub-header {
+  font-size: 14px;
+}
+
+.ranking {
+  font-size: 1.75rem;
+  font-weight: 600;
+  color: hsl(233, 8%, 79%);
+  padding: 0;
+  margin: 0;
+}
+
+@media only screen and (max-width: 375px) {
+  body {
+    background-color: lightpink;
+    padding: 5%;
+  }
+  .web3-desktop {
+    display: none;
+  }
+  .web3-mobile {
+    display: block;
+    width: 100%;
+  }
+  .headline {
+    font-size: 2.5rem;
+    max-width: 20rem;
+    margin-top: 1.25rem;
+    margin-bottom: 1rem;
+  }
+  .paragraph {
+    margin-bottom: 1.5rem;
+  }
+  .button {
+    margin-bottom: 3.5rem;
+    padding: 3.55% 9%;
+    font-weight: 800;
+    font-size: .85rem;
+    }
+    .new-headline {
+      margin-top: 0;
+      margin-bottom: 1.25rem;
+    }
+    .sub-header {
+      margin-top: .5rem;
+      line-height: 2;
+    }
+  }
